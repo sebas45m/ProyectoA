@@ -178,7 +178,7 @@ void ClonaPalabras(
     iNumSugeridas = 0;
     int len = strlen(szPalabraLeida);
     
-    // Añadir la palabra original
+ 
     strcpy_s(szPalabrasSugeridas[iNumSugeridas++], TAMTOKEN, szPalabraLeida);
     
     // ===== 1. ELIMINACIÓN =====
