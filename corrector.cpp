@@ -199,8 +199,7 @@ void ClonaPalabras(
         }
     }
     
-    // ===== 2. TRANSPOSICIÓN =====
-    // Intercambiar caracteres adyacentes
+  
     for (int i = 0; i < len - 1; i++) {
         char temp[TAMTOKEN];
         strcpy_s(temp, TAMTOKEN, szPalabraLeida);
