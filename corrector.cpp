@@ -279,7 +279,6 @@ void ListaCandidatas(
 {
     iNumLista = 0;
     
-    // Buscar cada palabra sugerida en el diccionario
     for (int i = 0; i < iNumSugeridas; i++) {
         int pos = busquedaBinaria(szPalabras, iNumElementos, szPalabrasSugeridas[i]);
         
