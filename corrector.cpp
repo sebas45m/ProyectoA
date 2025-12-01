@@ -343,7 +343,7 @@ int main() {
     
     cout << "Diccionario cargado: " << iNumElementos << " palabras" << endl;
     
-    // Loop principal
+    
     char palabraLeida[TAMTOKEN];
     while (true) {
         cout << "\nIngrese palabra a verificar (o 'salir' para terminar): ";
