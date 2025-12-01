@@ -328,7 +328,7 @@ int main() {
     int iEstadisticas[MAX_PALABRAS];
     int iNumElementos = 0;
     
-    // Cargar diccionario
+
     cout << "=== CORRECTOR ORTOGRAFICO ===" << endl;
     cout << "Ingrese nombre del archivo diccionario: ";
     char nombreArchivo[100];
